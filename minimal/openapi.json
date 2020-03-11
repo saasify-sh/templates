@@ -1,0 +1,49 @@
+{
+  "openapi": "3.0.2",
+  "info": {
+    "title": "{{name}}",
+    "description": "{{description}}"
+  },
+  "paths": {
+    "/todos/1": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Example todo object",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "userId": {
+                      "title": "userId",
+                      "type": "number"
+                    },
+                    "id": {
+                      "title": "id",
+                      "type": "number"
+                    },
+                    "title": {
+                      "title": "title",
+                      "type": "string"
+                    },
+                    "completed": {
+                      "title": "completed",
+                      "type": "boolean"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "servers": [
+    {
+      "url": "https://jsonplaceholder.typicode.com"
+    }
+  ]
+}
