@@ -5,37 +5,11 @@
     "description": "{{description}}"
   },
   "paths": {
-    "/todos/1": {
+    "/get": {
       "get": {
         "responses": {
           "200": {
-            "description": "Example todo object",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "additionalProperties": false,
-                  "properties": {
-                    "userId": {
-                      "title": "userId",
-                      "type": "number"
-                    },
-                    "id": {
-                      "title": "id",
-                      "type": "number"
-                    },
-                    "title": {
-                      "title": "title",
-                      "type": "string"
-                    },
-                    "completed": {
-                      "title": "completed",
-                      "type": "boolean"
-                    }
-                  }
-                }
-              }
-            }
+            "description": "Example GET service which echoes its inputs"
           }
         }
       }
@@ -43,7 +17,7 @@
   },
   "servers": [
     {
-      "url": "https://jsonplaceholder.typicode.com"
+      "url": "https://httpbin.org"
     }
   ]
 }
