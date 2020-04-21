@@ -2,9 +2,9 @@
 
 > {{description}}
 
-This SaaS project was bootstrapped with [Saasify](https://saasify.sh).
+This template "saasifies" an example REST API [httbin.org](https://httpbin.org). It uses a standard [OpenAPI](https://swagger.io/specification/) spec to describe the API's endpoints.
 
-This template "saasifies" an example [OpenAPI](https://swagger.io/specification/) pointing to [httbin.org](https://httpbin.org). Saasify acts as a proxy in front of this API to transparently handle authentication, billing, rate limiting, usage tracking, caching, and other production concerns.
+Saasify acts as a proxy in front of this external API to handle auth, billing, rate limiting, etc. This allows your backend API to focus solely on your product's unique value proposition.
 
 Once you're ready, you'll want to replace this OpenAPI spec with one representing your externally hosted API.
 
@@ -13,5 +13,7 @@ _Note that an OpenAPI spec is no longer required to use Saasify_. Including an O
 See our [quick start](https://docs.saasify.sh/#/quick-start) for a walkthrough of how to get started and our [OpenAPI guide](https://docs.saasify.sh/#/openapi) for more information on generating your own OpenAPI spec.
 
 ## License
+
+_This project was bootstrapped with [Saasify](https://saasify.sh)._
 
 {{license}} © [{{author}}](https://github.com/{{author}})
