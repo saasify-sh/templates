@@ -1,4 +1,5 @@
 {
   "name": "{{name}}",
-  "openapi": "./openapi.json"
+  "description": "Minimal starter template that saasifies an externally hosted backend API.",
+  "backendUrl": "https://httpbin.org"
 }

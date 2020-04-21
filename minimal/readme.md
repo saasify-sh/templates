@@ -4,9 +4,11 @@
 
 This SaaS project was bootstrapped with [Saasify](https://saasify.sh).
 
-Note that this template includes an example OpenAPI spec pointing to [httbin.org](https://httpbin.org). You'll want to replace this spec with one representing your externally hosted API.
+This template "saasifies" an example externally hosted API [httbin.org](https://httpbin.org). Saasify acts as a proxy in front of this API to transparently handle authentication, billing, rate limiting, usage tracking, caching, and other production concerns.
 
-See our [quick start](https://docs.saasify.sh/#/quick-start) for a walkthrough of how to get started and our [OpenAPI guide](https://docs.saasify.sh/#/openapi) for more information on generating your own OpenAPI spec.
+Once you're ready, you'll want to replace this `backendUrl` with a URL to your SaaS product's backend API.
+
+See our [quick start](https://docs.saasify.sh/#/quick-start) for a walkthrough of how to get started.
 
 ## License
 
