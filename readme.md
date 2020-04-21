@@ -14,6 +14,8 @@ The recommended way to use them is via the [Saasify CLI](https://docs.saasify.sh
 saasify init <project-name>
 ```
 
+See our [quick start](https://docs.saasify.sh/#/quick-start) for a walkthrough of how to get started.
+
 ## License
 
 MIT © [Saasify](https://saasify.sh)
